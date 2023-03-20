@@ -14,8 +14,8 @@ const divisão = (num1, num2) => {
     return num1 / num2;
 };
 
-const num1 = prompt('insira um numero');
-const num2 = prompt('insira outro numero');
+const num1 = parseInt((prompt('insira um numero')));
+const num2 = parseInt((prompt('insira outro numero')));
 
 const resultAdição = adição(num1, num2);
 
